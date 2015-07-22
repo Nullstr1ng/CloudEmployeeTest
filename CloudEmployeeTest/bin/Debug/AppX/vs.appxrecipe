@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JARADEVENV</Machine>
+    <WindowsUser>Jayson</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>64b46c39-3af1-4100-b84c-3acaff06b9f4</PackageIdentityName>
+    <RegisteredManifestChecksum>517917D6E8BC3BBE6CF204C6F494399E7665E8F503ADACEE04A9E065A78102CE</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>64b46c39-3af1-4100-b84c-3acaff06b9f4_1.0.0.0_neutral__e57n2qd78jwy8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>64b46c39-3af1-4100-b84c-3acaff06b9f4_e57n2qd78jwy8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>64b46c39-3af1-4100-b84c-3acaff06b9f4</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Jayson</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Clients\CloudEmployee\Test\CloudEmployeeTest\CloudEmployeeTest\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-22T04:33:14.819</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Clients\CloudEmployee\Test\CloudEmployeeTest\CloudEmployeeTest\bin\Debug\CloudEmployeeTest.exe">
+      <PackagePath>CloudEmployeeTest.exe</PackagePath>
+      <Modified>2015-07-22T04:49:26.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Clients\CloudEmployee\Test\CloudEmployeeTest\packages\MvvmLightLibs.5.1.1.0\lib\windows81\GalaSoft.MvvmLight.dll">
+      <PackagePath>GalaSoft.MvvmLight.dll</PackagePath>
+      <Modified>2015-07-22T01:46:12.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Clients\CloudEmployee\Test\CloudEmployeeTest\packages\MvvmLightLibs.5.1.1.0\lib\windows81\GalaSoft.MvvmLight.Extras.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.dll</PackagePath>
+      <Modified>2015-07-22T01:46:12.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Clients\CloudEmployee\Test\CloudEmployeeTest\packages\MvvmLightLibs.5.1.1.0\lib\windows81\GalaSoft.MvvmLight.Platform.dll">
+      <PackagePath>GalaSoft.MvvmLight.Platform.dll</PackagePath>
+      <Modified>2015-07-22T01:46:12.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Clients\CloudEmployee\Test\CloudEmployeeTest\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+      <Modified>2015-07-22T01:46:11.494</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Clients\CloudEmployee\Test\CloudEmployeeTest\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2015-07-22T02:17:25.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Clients\CloudEmployee\Test\CloudEmployeeTest\CloudEmployeeTest\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T22:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Clients\CloudEmployee\Test\CloudEmployeeTest\CloudEmployeeTest\Assets\profile_pic_placeholder.png">
+      <PackagePath>Assets\profile_pic_placeholder.png</PackagePath>
+      <Modified>2015-07-22T03:54:24.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Clients\CloudEmployee\Test\CloudEmployeeTest\CloudEmployeeTest\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T22:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Clients\CloudEmployee\Test\CloudEmployeeTest\CloudEmployeeTest\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T22:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Clients\CloudEmployee\Test\CloudEmployeeTest\CloudEmployeeTest\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T22:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Clients\CloudEmployee\Test\CloudEmployeeTest\CloudEmployeeTest\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-07-22T04:49:26.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Clients\CloudEmployee\Test\CloudEmployeeTest\CloudEmployeeTest\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-07-22T04:49:26.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Clients\CloudEmployee\Test\CloudEmployeeTest\CloudEmployeeTest\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-07-22T04:49:05.497</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

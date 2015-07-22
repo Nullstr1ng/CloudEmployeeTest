@@ -1,0 +1,47 @@
+﻿<Page
+    x:Class="CloudEmployee.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CloudEmployee"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    
+    DataContext="{Binding Source={StaticResource Locator}}"
+    
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ScrollViewer Margin="10">
+            <ListView ItemsSource="{Binding Main.CustomerTodayCollection}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            
+                            <Border Grid.Column="0">
+                                <Image Source="{Binding customer.emailAddress, Converter={StaticResource emailtopic}}" Width="64" Height="64" VerticalAlignment="Top" />
+                                <!--<Image Width="32" Height="32" VerticalAlignment="Top" Source="Assets/profile_pic_placeholder.png" />-->
+                            </Border>
+                            
+                            <Grid Grid.Column="1" Margin="10,0,0,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+                                
+                                <TextBlock Grid.Row="0" Text="{Binding customer.createdBy.displayName}" FontSize="18" />
+                                <TextBlock Grid.Row="1" Text="{Binding customer.emailAddress}" Opacity="0.75" />
+                                <TextBlock Grid.Row="2" Text="{Binding expectedTime}" Opacity="0.5" />
+                            </Grid>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollViewer>
+        <ProgressRing Width="100" Height="100" Visibility="{Binding Main.ShowProgressIndicator, Converter={StaticResource booltovis}}" Foreground="Red" IsActive="{Binding Main.ShowProgressIndicator}" />
+    </Grid>
+</Page>

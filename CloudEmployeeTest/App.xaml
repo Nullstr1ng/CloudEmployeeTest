@@ -1,0 +1,18 @@
+﻿<Application
+    x:Class="CloudEmployee.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="using:CloudEmployee.ViewModel"
+    xmlns:conv="using:CloudEmployee.BAL.Converters"
+    xmlns:local="using:CloudEmployee">
+
+    <Application.Resources>
+        <vm:ViewModelLocator x:Key="Locator" />
+        
+        <!-- converters -->
+        <conv:Converter_EmailToPic x:Key="emailtopic" />
+        <conv:Converter_BooleanToVisibility x:Key="booltovis" />
+    </Application.Resources>
+
+
+</Application>
